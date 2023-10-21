@@ -1,0 +1,46 @@
+<div class="container allHotels">
+  
+    <div>
+      <div>
+        <h2 style="text-align: center">Update Hotels Details here</h2>
+      </div>
+      <div>
+        <mat-form-field appearance="fill" class="form-elements">
+          <mat-label>Hotels Name</mat-label>
+          <input matInput placeholder="xoxo" [(ngModel)]="hotelsRecords.name" />
+        </mat-form-field>
+      </div>
+  
+      <div>
+        <mat-form-field appearance="fill" class="form-elements">
+          <mat-label>Name of Owner</mat-label>
+          <input matInput placeholder="Vijay" [(ngModel)]="hotelsRecords.owner" />
+        </mat-form-field>
+      </div>
+  
+      <div>
+        <mat-form-field appearance="fill" class="form-elements">
+          <mat-label>Hotels Mobile </mat-label>
+          <input matInput placeholder="978468267" [(ngModel)]="hotelsRecords.mobile" />
+        </mat-form-field>
+      </div>
+  
+      <div>
+        <mat-form-field appearance="fill" class="form-elements">
+          <mat-label>Hotel Email</mat-label>
+          <input matInput placeholder="zo@gmail.com " [(ngModel)]="hotelsRecords.email" />
+        </mat-form-field>
+      </div>
+  
+      <div>
+        <mat-form-field appearance="fill" class="form-elements">
+          <mat-label>Hotel Location</mat-label>
+          <input matInput placeholder="Mp" [(ngModel)]="hotelsRecords.location" />
+        </mat-form-field>
+      </div>
+      <div>
+        <button mat-raised-button color="primary" type="submit" (click)=" updateHotels()">Update Records</button>
+      </div>
+    </div>
+  </div>
+  

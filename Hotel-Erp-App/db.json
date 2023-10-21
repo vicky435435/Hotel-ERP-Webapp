@@ -1,0 +1,20 @@
+{
+  "Hotels": [
+    {
+      "id": 4,
+      "name": "New food cafe",
+      "owner": "mr Kiran sharma",
+      "mobile": "7845128956",
+      "email": "newfoodcafe@gmail.com",
+      "location": "Amravati"
+    },
+    {
+      "id": 5,
+      "name": "Ap hotels",
+      "owner": "Anand prasad",
+      "mobile": "8956237854",
+      "email": "apHotels@gmail.com",
+      "location": "Near NEW ROAD"
+    }
+  ]
+}
